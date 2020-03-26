@@ -12,6 +12,8 @@ private:
     std::string group;
 public:
     Student(std::string name, std::string group);
+    std::string getName();
+    std::string getGroup();
 };
 
 

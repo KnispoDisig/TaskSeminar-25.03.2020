@@ -9,3 +9,11 @@ Student::Student(std::string name, std::string group) {
     this->name = name;
     this->group = group;
 }
+
+std::string Student::getName() {
+    return this->name;
+}
+
+std::string Student::getGroup() {
+    return this->group;
+}
